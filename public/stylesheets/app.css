@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* background: #85203b; */
+    background: #ad1f1f;
+}
+
+.header1 {
+    background: #ad1f1f;
+
+}
+
+.header1 h3 {
+    color: white;
+}
+
+.header h3,
+a {
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(248, 151, 4);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(248, 151, 4);
+}
+
+h3 {
+    color: #0e153a;
+    font-weight: 600;
+}
+
+.btn-block,
+.btn-block:hover {
+    background: #AD1F1F;
+    border: none;
+}
+
+
+.btn-block:focus {
+    border: none;
+    background: #AD1F1F;
+}
+
+.form-control:focus,
+textarea:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+#home {
+    margin-top: 200px;
+    width: 30%;
+    /* background: #3d5af1; */
+    color: white;
+    padding: 0;
+    background: #cb3b3b;
+
+}
+
+#main-window {
+    width: 70%;
+    background: #cb3b3b;
+    margin-top: 80px;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#middle {
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+
+
+
+
+#left-menu {
+    color: white;
+}
+
+#left-menu ul {
+    list-style: none;
+}
+
+#chat-box {
+    background: white;
+    /* overflow-y: scroll; */
+}
+
+.msg {
+    background: rgb(230, 232, 235);
+    margin: 15px 5px;
+    padding: .2px 15px;
+    border-radius: 15px;
+}
+
+textarea {
+    width: 90%;
+    margin: 0;
+    padding: 10px;
+    resize: none;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+
+#send {
+    margin: 0;
+    width: 10%;
+    border: none;
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    #home,
+    #main-window {
+        width: 80%;
+    }
+
+    .header h3 {
+        font-size: 1.8rem;
+    }
+
+    .header h5 {
+        font-size: 1.1rem;
+    }
+
+    .px-4 {
+        padding-left: 0 !important;
+    }
+
+    #send {
+        width: 40%;
+    }
+}
